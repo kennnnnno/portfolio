@@ -77,7 +77,7 @@ export default async function SkillsPage() {
             <div className="mt-4 p-4 bg-white rounded-lg border-l-4 border-blue-500 shadow-sm">
               <div className="text-sm text-gray-600 leading-relaxed">
                 インターンにて、フロントエンド（React/Next.js）からバックエンド（Node.js/NestJS）までのフルスタック開発を学びました。
-                学習のアウトプットとして掲示板アプリを作成しました。
+                学習のアウトプットとしてReact+NestJSで掲示板アプリを作成しました。
                 <br />
                 またこのポートフォリオもNext.js + Tailwind CSSで作成しています。
                 <div className="mt-3 flex flex-wrap gap-2">
