@@ -79,7 +79,32 @@ export default async function SkillsPage() {
                 インターンにて、フロントエンド（React/Next.js）からバックエンド（Node.js/NestJS）までのフルスタック開発を学びました。
                 学習のアウトプットとして掲示板アプリを作成しました。
                 <br />
-                フロントエンド:
+                またこのポートフォリオもNext.js + Tailwind CSSで作成しています。
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    React
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    PostgreSQL
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    Prisma
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    HTML
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    CSS
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    JavaScript
+                  </span>
+                </div>
+                <br />
+                <span>掲示板アプリ フロントエンド :</span>
                 <a
                   href="https://github.com/kennnnnno/-frontend"
                   className="text-blue-500 hover:underline"
@@ -87,7 +112,7 @@ export default async function SkillsPage() {
                   https://github.com/kennnnnno/-frontend
                 </a>
                 <br />
-                バックエンド:
+                <span>掲示板アプリ バックエンド :</span>
                 <a
                   href="https://github.com/kennnnnno/-backend"
                   className="text-blue-500 hover:underline"
@@ -101,32 +126,6 @@ export default async function SkillsPage() {
                   <video controls src="/videos/掲示板画面例.mp4"></video>
                 </div>
                 <br />
-                またこのポートフォリオもNext.js + Tailwind CSSで作成しています。
-              </div>
-
-              {/* 補足的に細かなスキルを添える */}
-              <div className="mt-3 flex flex-wrap gap-2">
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  React
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  Tailwind CSS
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  PostgreSQL
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  Prisma
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  HTML
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  CSS
-                </span>
-                <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                  JavaScript
-                </span>
               </div>
             </div>
           </div>

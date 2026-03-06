@@ -10,13 +10,17 @@ export const Header = () => {
     { href: "/k-portfolio/about", label: "About me" },
     { href: "/k-portfolio/skills", label: "Skills" },
     { href: "/k-portfolio/research", label: "Research" },
-    { href: "/k-portfolio/links", label: "Links" },
+    { href: "/k-portfolio/link", label: "Link" },
   ];
 
   return (
     <>
       <div className="flex items-center justify-between shadow h-20 bg-gray-200">
-        <h1 className="ml-5 text-2xl font-bold">KENNOSUKE</h1>
+        <h1 className="ml-5 text-2xl font-black tracking-tighter italic underline">
+          <span className="text-blue-500">K</span>
+          <span className="text-gray-900">ENNOSUKE</span>
+          <span className="text-blue-500">.</span>
+        </h1>
 
         <nav className="hidden md:flex gap-8 text-lg font-semibold m-5">
           {navLinks.map((link) => (
