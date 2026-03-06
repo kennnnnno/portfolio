@@ -8,8 +8,9 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navLinks = [
     { href: "/k-portfolio/about", label: "About me" },
+    { href: "/k-portfolio/skills", label: "Skills" },
     { href: "/k-portfolio/research", label: "Research" },
-    { href: "/k-portfolio/link", label: "Link" },
+    { href: "/k-portfolio/links", label: "Links" },
   ];
 
   return (
