@@ -22,6 +22,7 @@ Next.js (App Router) と Tailwind CSS を使用して構築した、自身のポ
 ・スマホ、PCどちらから見てもきれいに見えるようなレスポンシブデザイン(ハンバーガーメニューなど)
 
 ## ディレクトリ構造（主要部分）
+
 ```text
 src/
 ├── app/ # App Router
@@ -32,3 +33,4 @@ src/
 │    ├── link/ # 外部リンク
 │    └── Hamburger.tsx/Header.tsx/layout.tsx #常時表示されるヘッダー作成　　　　　　　　　　　　　　
 └── public/ # 画像・動画資産
+```
