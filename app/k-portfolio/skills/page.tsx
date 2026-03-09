@@ -38,7 +38,7 @@ export default async function SkillsPage() {
               </div>
               <div className="text-xl text-center font-bold">Python</div>
               <div className="text-l text-center">
-                大学の授業や競技プログラミングで使用しています。
+                大学の授業や課題などで使用しています。
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default async function SkillsPage() {
               <span className="font-bold text-gray-800">
                 Paiza(プログラミングスキルチェックサービス)
                 <br />
-                スキルチェック: Aランク
+                Python スキルチェック: Aランク
               </span>
             </div>
             <p className="text-sm text-gray-600 mt-1 pl-6">
