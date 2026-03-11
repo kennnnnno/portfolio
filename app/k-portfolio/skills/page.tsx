@@ -120,12 +120,21 @@ export default async function SkillsPage() {
                   https://github.com/kennnnnno/-backend
                 </a>
                 <div className="my-5">
-                  <div className="underline text-center mb-2">
+                  <div className="underline text-center mt-10 mb-2">
                     掲示板アプリの画面例
                   </div>
-                  <video controls src="/videos/掲示板画面例.mp4"></video>
+                  <div className="w-full mb-10 flex justify-center">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/MVRNGi4tJyc?si=IhpmcuAe_uILdDAt"
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
                 </div>
-                <br />
               </div>
             </div>
           </div>
