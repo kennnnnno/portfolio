@@ -5,13 +5,13 @@ Next.js (App Router) と Tailwind CSS を使用して構築した、自身のポ
 
 ## 公開URL
 
-準備中
+https://portfolio-one-flax-26hy7fw3bw.vercel.app/k-portfolio/about
 
 ## 使用技術
 
 - **Frontend**: Next.js (App Router), TypeScript
 - **Styling**: Tailwind CSS
-- **Deployment**: Render
+- **Deployment**: Vercel
 
 ## こだわり
 
