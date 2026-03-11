@@ -21,10 +21,10 @@ export default async function researchPage() {
           <h2 className="text-center text-gray-500 font-bold mb-1 mt-5 italic">
             System Architecture
           </h2>
-          <div className="h-100 bg-gray-200 rounded-xl flex items-center justify-center text-gray-400">
+          <div className="max-h-100 bg-gray-200 rounded-xl flex items-center justify-center text-gray-400">
             <img
               src="/images/SystemArchitecture.jpg"
-              className="h-full p-2"
+              className="h-full max-h-100 p-2 object-contain"
               alt="Icon"
             />
           </div>
