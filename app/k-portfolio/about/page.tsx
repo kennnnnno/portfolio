@@ -7,14 +7,13 @@ export default async function aboutPage() {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
-        {/* 左側：アイコンと基本プロフィール */}
         <div className="md:col-span-1 text-center space-y-6">
           <div className="relative inline-block">
-            <div className="w-40 h-40 rounded-full bg-gradient-to-tr from-blue-500 to-teal-400 p-1 shadow-2xl overflow-hidden">
+            <div className="w-40 h-40 rounded-full bg-gradient-to-tr from-blue-300 to-teal-400 p-1 shadow-2xl overflow-hidden">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
                 <img
                   src="/images/Icon.jpg"
-                  className="w-full h-full object-cover" // object-contain から object-cover に変更
+                  className="w-full h-full object-cover"
                   alt="Icon"
                 />
               </div>
@@ -27,7 +26,6 @@ export default async function aboutPage() {
           </div>
         </div>
 
-        {/* 右側：詳細・趣味 */}
         <div className="md:col-span-2 space-y-8">
           <section className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">

@@ -3,8 +3,8 @@ export default async function SkillsPage() {
     <>
       <h1 className="text-3xl font-extrabold text-center m-10">Skills</h1>
 
-      <div className="mx-5 my-10 0 bg-gray-100 rounded-xl p-5 shadow-xl">
-        <h2 className="text-2xl font-bold border-b-2 mb-4">📖保有資格</h2>
+      <div className="mx-5 my-10 0 bg-gray-50 rounded-xl p-5 shadow-xl">
+        <h2 className="text-2xl font-bold border-b-2 mb-4">保有資格</h2>
         <div className="text-m">
           ITに関する幅広い知見を得たいと感じ、以下を取得しました。
         </div>
@@ -21,8 +21,8 @@ export default async function SkillsPage() {
           </li>
         </ul>
       </div>
-      <div className="mx-5 my-5 0 bg-gray-100 rounded-xl py-5 shadow-xl">
-        <h2 className="text-2xl font-bold border-b-2 mb-4 mx-4">💻技術</h2>
+      <div className="mx-5 my-5 0 bg-gray-50 rounded-xl py-5 shadow-xl">
+        <h2 className="text-2xl font-bold border-b-2 mb-4 mx-6">技術</h2>
         <div className="flex items-center flex-col mt-3 p-2">
           <div className="flex flex-wrap justify-center">
             <div className="m-5">
