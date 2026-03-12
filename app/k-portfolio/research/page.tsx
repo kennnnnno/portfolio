@@ -23,7 +23,7 @@ export default async function researchPage() {
           </h2>
           <div className="max-h-100 bg-gray-200 rounded-xl flex items-center justify-center text-gray-400">
             <img
-              src="/images/SystemArchitecture.jpg"
+              src="/images/SystemArchitecture.png"
               className="h-full max-h-100 p-2 object-contain"
               alt="Icon"
             />
