@@ -91,7 +91,7 @@ export default async function SkillsPage() {
                     PostgreSQL
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
-                    Prisma
+                    TypeORM
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
                     HTML
@@ -101,6 +101,9 @@ export default async function SkillsPage() {
                   </span>
                   <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
                     JavaScript
+                  </span>
+                  <span className="px-2 py-1 bg-gray-200 text-xs rounded text-gray-700">
+                    TypeScript
                   </span>
                 </div>
                 <br />
@@ -137,6 +140,95 @@ export default async function SkillsPage() {
                 </div>
               </div>
             </div>
+            {/* 就活管理アプリのセクション */}
+            <section className="mt-12 p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row justify-between items-start mb-4">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    就活進捗管理アプリケーション (JOB_HUNTING_MANAGEMENT)
+                  </h3>
+                </div>
+                <div className="flex gap-2 mt-3 md:mt-0">
+                  <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full">
+                    Next.js
+                  </span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full">
+                    Dexie.js (IndexedDB)
+                  </span>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                {/* 左・中央：プロジェクト詳細 */}
+                <div className="md:col-span-2">
+                  <h4 className="font-bold text-gray-700 mb-2 flex items-center">
+                    <span className="mr-2">📌</span> 概要
+                  </h4>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                    自身の就職活動における選考フロー（締切、面接日、ステータス）を一元管理するために開発。
+                    「企業ごとの細かい進捗を直感的に把握したい」という自身の課題を、ブラウザ完結のセキュアな環境で解決することを目指しました。
+                  </p>
+
+                  <h4 className="font-bold text-gray-700 mb-2 flex items-center">
+                    <span className="mr-2"></span> 技術的アプローチ
+                  </h4>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start">
+                      <span className="mr-2 text-blue-500">✔</span>
+                      <span>
+                        <strong>オフラインファースト:</strong>{" "}
+                        Dexie.jsを採用し、データ通信なしでの高速動作とプライバシー保護を両立。
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2 text-blue-500">✔</span>
+                      <span>
+                        <strong>動的なUI制御:</strong>{" "}
+                        カレンダーとリストの双方向なデータ同期をフロントエンドの状態管理で実装。
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2 text-blue-500">✔</span>
+                      <span>
+                        <strong>再利用性の高い設計:</strong>{" "}
+                        各UIパーツをコンポーネント化し、将来的な機能拡張に備えた設計。
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* 右側：リンク集（カード形式） */}
+                <div className="bg-gray-50 p-5 rounded-lg border border-gray-100 flex flex-col justify-center">
+                  <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4 text-center">
+                    Project Links
+                  </h4>
+                  <div className="space-y-3">
+                    <a
+                      href="https://github.com/kennnnnno/JOB_HUNTING_MANAGEMENT"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full flex items-center justify-center gap-2 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition-colors text-sm font-medium"
+                    >
+                      <span>Source Code (GitHub)</span>
+                    </a>
+                    <a
+                      href="https://job-hunting-management.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full flex items-center justify-center gap-2 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-50 transition-colors text-sm font-medium"
+                    >
+                      <span>Live Demo</span>
+                    </a>
+                  </div>
+                  <p className="text-[10px] text-gray-400 mt-4 text-center">
+                    ※IndexedDBを使用しているため、データはブラウザ内に保存されます。
+                  </p>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
