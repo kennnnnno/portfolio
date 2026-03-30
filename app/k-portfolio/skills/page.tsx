@@ -144,8 +144,8 @@ export default async function SkillsPage() {
             <section className="mt-12 p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
               <div className="flex flex-col md:flex-row justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-800">
-                    就活進捗管理アプリケーション (JOB_HUNTING_MANAGEMENT)
+                  <h3 className="text-xl font-bold text-gray-800">
+                    就活進捗管理アプリケーション
                   </h3>
                 </div>
                 <div className="flex gap-2 mt-3 md:mt-0">
