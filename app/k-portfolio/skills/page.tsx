@@ -170,6 +170,7 @@ export default async function SkillsPage() {
                   <p className="text-gray-600 text-sm leading-relaxed mb-4">
                     自身の就職活動における選考フロー（締切、面接日、ステータス）を一元管理するために開発。
                     「企業ごとの細かい進捗を直感的に把握したい」という自身の課題を、ブラウザ完結のセキュアな環境で解決することを目指しました。
+                    各企業の採用マイページのURL、ID、パスワードの一括管理機能や説明会や選考日程の情報管理機能、各保存データのバックアップ機能を実装しています。
                   </p>
 
                   <h4 className="font-bold text-gray-700 mb-2 flex items-center">
@@ -188,13 +189,6 @@ export default async function SkillsPage() {
                       <span>
                         <strong>動的なUI制御:</strong>{" "}
                         カレンダーとリストの双方向なデータ同期をフロントエンドの状態管理で実装。
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-2 text-blue-500">✔</span>
-                      <span>
-                        <strong>再利用性の高い設計:</strong>{" "}
-                        各UIパーツをコンポーネント化し、将来的な機能拡張に備えた設計。
                       </span>
                     </li>
                   </ul>
